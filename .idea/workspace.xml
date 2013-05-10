@@ -11,6 +11,7 @@
     <file path="/app.js" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368183980074" ignored="false" />
     <file path="/package.json" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368178942178" ignored="false" />
     <file path="/navigation.html" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368180366931" ignored="false" />
+    <file path="$PROJECT_DIR$/../Node-Proxy/app.js" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368200793859" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +35,7 @@
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="62" column="4" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,7 +61,7 @@
       <file leaf-file-name="navigation.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layout/includes/navigation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="21" selection-start="56" selection-end="56" vertical-scroll-proportion="-1.25">
+            <state line="2" column="21" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1368180380000" expanded="true" signature="4:70" placeholder="..." />
               </folding>
@@ -73,7 +72,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/home/view/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="522" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="522" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1368177276000" expanded="true" signature="272:445" placeholder="..." />
                 <marker date="1368177276000" expanded="true" signature="337:414" placeholder="..." />
@@ -95,7 +94,7 @@
       <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layout/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="7" selection-start="466" selection-end="466" vertical-scroll-proportion="-9.375">
+            <state line="15" column="7" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -113,12 +112,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/chat/view/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="30" selection-start="720" selection-end="720" vertical-scroll-proportion="0.34031415">
-              <folding>
-                <element signature="e#105#209#0" expanded="true" />
-                <element signature="e#283#358#0" expanded="true" />
-                <element signature="e#423#443#0" expanded="true" />
-              </folding>
+            <state line="27" column="30" selection-start="720" selection-end="720" vertical-scroll-proportion="0.015739769">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,9 +153,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-80" />
     <option name="y" value="22" />
-    <option name="width" value="1085" />
+    <option name="width" value="1338" />
     <option name="height" value="1111" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -189,6 +183,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,38 +213,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="socket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="socket.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -399,16 +362,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="preferences.fileTypes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Node-Proxy" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -446,7 +409,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-80" y="22" width="1085" height="1111" extended-state="0" />
+    <frame x="0" y="22" width="1338" height="1111" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -455,7 +418,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2319538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19040248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -554,11 +517,6 @@
         <state line="21" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="0.31754032" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/swig/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/Database.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="93" column="0" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.0">
@@ -568,21 +526,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layout/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="1" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="242" selection-end="242" vertical-scroll-proportion="-8.75">
-          <folding />
-        </state>
+        <state line="14" column="1" selection-start="242" selection-end="242" vertical-scroll-proportion="-8.75" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layout/includes/navigation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="56" selection-end="56" vertical-scroll-proportion="-1.25">
+        <state line="2" column="21" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1368180380000" expanded="true" signature="4:70" placeholder="..." />
           </folding>
@@ -597,13 +551,6 @@
             <marker date="1368177276000" expanded="true" signature="337:414" placeholder="..." />
             <marker date="1368177276000" expanded="true" signature="469:502" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/socket.io/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,15 +571,13 @@
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="4" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layout/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="466" selection-end="466" vertical-scroll-proportion="-9.375">
+        <state line="15" column="7" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -646,12 +591,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/chat/view/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="30" selection-start="720" selection-end="720" vertical-scroll-proportion="0.34031415">
-          <folding>
-            <element signature="e#105#209#0" expanded="true" />
-            <element signature="e#283#358#0" expanded="true" />
-            <element signature="e#423#443#0" expanded="true" />
-          </folding>
+        <state line="27" column="30" selection-start="720" selection-end="720" vertical-scroll-proportion="0.015739769">
+          <folding />
         </state>
       </provider>
     </entry>
