@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> {% block title %} My Site {% endblock %} </title>
+        <script type="text/javascript" src="/layout/js/jquery-1.9.1.min.js"></script>
+        {% block head %}
+        <link rel="stylesheet" href="/layout/css/main.css">
+        {% endblock %}
+    </head>
+    <body>
+        {% include 'layout/includes/navigation.html' %}
+        {% block content %}{% endblock %}
+
+    </body>
+</html>
