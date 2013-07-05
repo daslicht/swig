@@ -1,4 +1,12 @@
-<nav>
-    <a href="/"> welcome</a>
-    <a href="/chat"> chat</a>
-</nav>
+<div class='navigation'>
+
+        {% for r in routes %}
+        	<a href={{r.slug}} > {{r.name}} </a>
+        {% endfor %}
+
+
+<!--     <a href="/"> welcome</a>
+    <a href="/chat">chat</a>
+    <a href="/about">about</a>
+    <a href="/contact">contact</a> -->
+</div>

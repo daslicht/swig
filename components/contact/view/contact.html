@@ -1,0 +1,87 @@
+{% extends 'layout/layout.html' %}
+
+{% block title %}My Page{% endblock %}
+
+{% block head %}
+    {% parent %}
+    <link rel="stylesheet" href="/layout/css/main.css">
+{% endblock %}
+
+{% block content %}
+    
+    <div class='format_p' style="opacity: 0">
+        <button id='bold'>BOLD</button>
+        <button id='center'>CENTER</button>
+        <button id='url'>URL</button>
+        <button id='insert_image'>image</button>
+        <button id='finish'>finish</button>
+    </div>
+    <div class='editable'  spellcheck="false" contenteditable="false"> test </div>
+
+
+
+    <script>
+        $(document).ready(function(){
+
+
+            $(document).on('click', '#bold',function(){
+                document.execCommand ('bold', false, null);
+            });
+            $(document).on('click', '#center',function(){
+                document.execCommand ('justifyCenter', false, null);
+            });
+            $(document).on('click', '#url',function(){
+                document.execCommand ('createLink', false, "http://ansolas.de");
+            });
+
+            /*$(document).on('click', '#insert_image',function(){
+                document.execCommand ('insertimage', false, "http://localhost:3000/layout/assets/dummy50x50.png");
+            });*/
+
+            $(document).on('click', '#insert_image',function(){
+                document.execCommand ('insertHTML', false, '<img style="float:left;margin:5px" src="http://localhost:3000/layout/assets/dummy50x50.png">');
+            });
+
+
+
+
+            $(document).on('click', '#finish',function(){
+                $('.editable').attr('contentEditable',false);
+                console.log($('.editable').html());
+                $('.format_p').animate({opacity:0},125,'easeInOutExpo');
+            });
+
+            $(document).on('dblclick', '.editable',function(){
+                $('.editable').attr('contentEditable',true);
+                $('.format_p').animate({opacity:1},125,'easeInOutExpo');
+
+            });
+
+
+/*
+ http://www-archive.mozilla.org/editor/midas-spec.html
+ execCommand(String aCommandName, Boolean aShowDefaultUI, String aValueArgument)
+
+*createLink
+ Creates an anchor link from the selection,
+ only if there is a selection.
+ This requires the HREF URI string to be passed in as a value argument.
+ The URI must contain at least a single character, which may be a white space.
+ (Internet Explorer will create a link with a null URI value.)
+*
+*
+*
+* */
+
+        });
+    </script>
+
+
+
+{#http://help.dottoro.com/larpvnhw.php#}
+
+
+
+
+
+{% endblock %}

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$/app.js" libraries="{Node.js Globals, Node.js v0.10.4 Core Modules}" />
-    <file url="file://$PROJECT_DIR$/components/chat/index.js" libraries="{Node.js Globals, Node.js v0.10.4 Core Modules}" />
-    <file url="file://$PROJECT_DIR$/components/home/index.js" libraries="{Node.js Globals, Node.js v0.10.4 Core Modules}" />
+    <file url="file://$PROJECT_DIR$/components/chat/chat.js" libraries="{Node.js Globals, Node.js v0.10.4 Core Modules}" />
+    <file url="file://$PROJECT_DIR$/components/contact/contact.js" libraries="{Node.js Globals, Node.js v0.10.4 Core Modules}" />
+    <file url="file://$PROJECT_DIR$/components/home/home.js" libraries="{Node.js Globals, Node.js v0.10.4 Core Modules}" />
     <file url="file://$PROJECT_DIR$/routes/index.js" libraries="{Node.js Globals, Node.js v0.10.4 Core Modules}" />
     <file url="file://$PROJECT_DIR$/socket/socket.js" libraries="{Node.js Globals, Node.js v0.10.4 Core Modules}" />
   </component>

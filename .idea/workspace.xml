@@ -4,14 +4,44 @@
     <list default="true" id="5d4d0ab8-1ff8-419a-85fc-be226f25913d" name="Default" comment="" />
     <ignored path="swig.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368184251890" ignored="false" />
-    <file path="/layout.html" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368182531590" ignored="false" />
-    <file path="/main.css" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368112283838" ignored="false" />
+    <file path="/index.html" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368366657287" ignored="false" />
+    <file path="/layout.html" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368370858976" ignored="false" />
+    <file path="/main.css" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371711374" ignored="false" />
     <file path="/index.js" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368184200118" ignored="false" />
     <file path="/app.js" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368183980074" ignored="false" />
     <file path="/package.json" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368178942178" ignored="false" />
-    <file path="/navigation.html" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368180366931" ignored="false" />
+    <file path="/navigation.html" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368370956587" ignored="false" />
     <file path="$PROJECT_DIR$/../Node-Proxy/app.js" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368200793859" ignored="false" />
+    <file path="/Applications/MAMP/htdocs/shf2013/index.php.html" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368352613740" ignored="false" />
+    <file path="/Applications/MAMP/htdocs/shf2013/index.php" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368353994573" ignored="false" />
+    <file path="/Applications/MAMP/htdocs/shf2013/sd.html" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368352640636" ignored="false" />
+    <file path="/index.php" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368353168613" ignored="false" />
+    <file path="/Applications/MAMP/htdocs/shf2013/assets/css/main.css" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368354143605" ignored="false" />
+    <file path="/canvas.js" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368359749502" ignored="false" />
+    <file path="/about.html" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368381484942" ignored="false" />
+    <file path="$PROJECT_DIR$/node_modules/express/node_modules/connect/node_modules/qs/test/browser/mocha.css" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371008232" ignored="false" />
+    <file path="$PROJECT_DIR$/Node-Proxy/node_modules/http-proxy/examples/node_modules/connect-jsonp/support/expresso/docs/api.html" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371008232" ignored="false" />
+    <file path="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples/serverstats-express_3/public/index.html" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371008232" ignored="false" />
+    <file path="$PROJECT_DIR$/public/stylesheets/style.css" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371008232" ignored="false" />
+    <file path="$PROJECT_DIR$/Node-Proxy/node_modules/http-proxy/node_modules/pkginfo/docs/docco.css" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371008232" ignored="false" />
+    <file path="$PROJECT_DIR$/node_modules/swig/node_modules/underscore/index.html" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371008232" ignored="false" />
+    <file path="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib-cov/public/style.css" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371008232" ignored="false" />
+    <file path="$PROJECT_DIR$/Node-Proxy/node_modules/http-proxy/examples/node_modules/connect-jsonp/support/expresso/docs/layout/head.html" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371008232" ignored="false" />
+    <file path="$PROJECT_DIR$/Node-Proxy/node_modules/http-proxy/examples/node_modules/connect/lib/public/style.css" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371008232" ignored="false" />
+    <file path="$PROJECT_DIR$/node_modules/socket.io/node_modules/policyfile/doc/index.html" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371008232" ignored="false" />
+    <file path="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples/fileapi/public/index.html" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371008232" ignored="false" />
+    <file path="$PROJECT_DIR$/Node-Proxy/node_modules/http-proxy/examples/node_modules/connect-jsonp/support/expresso/docs/index.html" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371008232" ignored="false" />
+    <file path="$PROJECT_DIR$/Node-Proxy/node_modules/http-proxy/examples/node_modules/connect-gzip/test/fixtures/style.css" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371008232" ignored="false" />
+    <file path="$PROJECT_DIR$/node_modules/express/node_modules/connect/lib/public/style.css" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371008232" ignored="false" />
+    <file path="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples/serverstats/public/index.html" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371008232" ignored="false" />
+    <file path="/style.css" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371440706" ignored="false" />
+    <file path="$USER_HOME$/Desktop/festival/themes/f9stival/style.css" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371467496" ignored="false" />
+    <file path="/about.js" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368371772892" ignored="false" />
+    <file path="$USER_HOME$/Desktop/festival/themes/f9stival/templates/html.tpl.php" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368478749409" ignored="false" />
+    <file path="$USER_HOME$/Desktop/festival/themes/f9stival/f9stival.info" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368479780814" ignored="false" />
+    <file path="/f9stival.info" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368479315406" ignored="false" />
+    <file path="$USER_HOME$/Desktop/festival/themes/f9stival/js/main.js" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368480291084" ignored="false" />
+    <file path="/main.js" changelist="5d4d0ab8-1ff8-419a-85fc-be226f25913d" time="1368479595051" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,28 +61,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layout/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="17" selection-start="1806" selection-end="1806" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="4" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.0">
+            <state line="86" column="41" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="socket.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket/socket.js">
+      <file leaf-file-name="layout.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/layout/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="7" selection-start="216" selection-end="527" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/home/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="19" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
+            <state line="6" column="44" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0931677">
               <folding />
             </state>
           </provider>
@@ -61,58 +91,63 @@
       <file leaf-file-name="navigation.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layout/includes/navigation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="21" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+            <state line="2" column="20" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/chat/chat.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="41" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/about/about.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="2" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/about/view/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="57" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1368180380000" expanded="true" signature="4:70" placeholder="..." />
+                <marker date="1368381484000" expanded="true" signature="1330:1351" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/home/view/index.html">
+      <file leaf-file-name="contact.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/contact/contact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="522" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1368177276000" expanded="true" signature="272:445" placeholder="..." />
-                <marker date="1368177276000" expanded="true" signature="337:414" placeholder="..." />
-                <marker date="1368177276000" expanded="true" signature="469:502" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Database.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/Database.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="0" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.0">
+            <state line="10" column="44" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layout/layout.html">
+      <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/home/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="7" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
+            <state line="37" column="0" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/chat/index.js">
+      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/contact/view/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="7" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/chat/view/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="30" selection-start="720" selection-end="720" vertical-scroll-proportion="0.015739769">
+            <state line="11" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,29 +167,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/view/index.html" />
-        <option value="$PROJECT_DIR$/views/layout.html" />
-        <option value="$PROJECT_DIR$/views/test/index.html" />
-        <option value="$PROJECT_DIR$/views/index.html" />
-        <option value="$PROJECT_DIR$/layout/css/main.css" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/database/Database.js" />
-        <option value="$PROJECT_DIR$/components/home/view/index.html" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/layout/includes/navigation.html" />
-        <option value="$PROJECT_DIR$/components/home/index.js" />
         <option value="$PROJECT_DIR$/socket/socket.js" />
-        <option value="$PROJECT_DIR$/layout/layout.html" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/components/chat/index.js" />
         <option value="$PROJECT_DIR$/components/chat/view/index.html" />
+        <option value="$PROJECT_DIR$/components/home/view/index.html" />
+        <option value="$PROJECT_DIR$/layout/js/canvas.js" />
+        <option value="$PROJECT_DIR$/layout/index.html" />
+        <option value="$PROJECT_DIR$/components/contact/view/index.html" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/components/chat/chat.js" />
+        <option value="$PROJECT_DIR$/layout/includes/navigation.html" />
+        <option value="$PROJECT_DIR$/components/contact/contact.js" />
+        <option value="$PROJECT_DIR$/components/home/home.js" />
+        <option value="$PROJECT_DIR$/components/about/about.js" />
+        <option value="$PROJECT_DIR$/layout/layout.html" />
+        <option value="$PROJECT_DIR$/components/about/view/about.html" />
+        <option value="$PROJECT_DIR$/layout/css/main.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="209" />
     <option name="y" value="22" />
-    <option name="width" value="1338" />
+    <option name="width" value="1499" />
     <option name="height" value="1111" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -171,7 +207,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -182,196 +218,16 @@
       <autoscrollFromSource ProjectPane="true" />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="socket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="preferences.fileTypes" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Node-Proxy" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/festival" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -386,8 +242,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/layout/assets" />
-      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$/components/about" />
+      <recent name="$PROJECT_DIR$/components/contact" />
+      <recent name="$PROJECT_DIR$/components/about/view" />
+      <recent name="$PROJECT_DIR$/components/contact/view" />
+      <recent name="$PROJECT_DIR$/layout" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -409,19 +268,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1338" height="1111" extended-state="0" />
-    <editor active="true" />
+    <frame x="209" y="22" width="1499" height="1111" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19040248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1700542" sideWeight="0.6700303" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -494,104 +353,104 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/home/view/index.html">
+    <entry file="file://$PROJECT_DIR$/layout/assets/cloud.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket/socket.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+        <state line="26" column="2" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/js/canvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="8" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/chat/view/chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="1901" selection-end="1901" vertical-scroll-proportion="-14.625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/home/view/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="34" selection-start="144" selection-end="144" vertical-scroll-proportion="-3.75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/chat/chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="41" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/contact/view/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/README.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="10" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.22665268" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/contact/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="44" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/home/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/about/about.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="2" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/includes/navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/about/view/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="57" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1368177276000" expanded="true" signature="272:445" placeholder="..." />
-            <marker date="1368177276000" expanded="true" signature="337:414" placeholder="..." />
-            <marker date="1368177276000" expanded="true" signature="469:502" placeholder="..." />
+            <marker date="1368381484000" expanded="true" signature="1330:1351" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="57" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="0.31754032" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/Database.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="2147" selection-end="2147" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layout/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="242" selection-end="242" vertical-scroll-proportion="-8.75" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/includes/navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1368180380000" expanded="true" signature="4:70" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/home/view/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="522" vertical-scroll-proportion="-0.0">
-          <folding>
-            <marker date="1368177276000" expanded="true" signature="272:445" placeholder="..." />
-            <marker date="1368177276000" expanded="true" signature="337:414" placeholder="..." />
-            <marker date="1368177276000" expanded="true" signature="469:502" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/home/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="19" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket/socket.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="7" selection-start="216" selection-end="527" vertical-scroll-proportion="0.0">
+        <state line="82" column="17" selection-start="1806" selection-end="1806" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="4" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.0">
+        <state line="86" column="41" selection-start="2442" selection-end="2442" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layout/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/chat/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="7" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/chat/view/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="30" selection-start="720" selection-end="720" vertical-scroll-proportion="0.015739769">
+        <state line="6" column="44" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0931677">
           <folding />
         </state>
       </provider>

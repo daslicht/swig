@@ -9,7 +9,9 @@
     "express": "3.1.0",
     "consolidate" : "*",
     "swig": "*",
+    "less-middleware": "*",
     "urlify" : "*",
-    "socket.io": "*"
+    "socket.io": "*",
+    "mongodb": "*"
   }
 }
