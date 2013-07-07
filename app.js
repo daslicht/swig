@@ -4,9 +4,9 @@
     var express = require('express')
          , http = require('http')
          , cons = require('consolidate')
-         , swig = require('swig')
          , path = require('path')
-
+    fs  = require('fs');
+    swig = require('swig')
     app = express();
     app.configure(function(){
         app.set('port', process.env.PORT || 3000);
@@ -51,13 +51,16 @@ GLOBAL HELPER FUNCTIONS
         }
 
 
+
     /*GET FILE EXTENSION*/
         app.getExtension = function(filename){
             var i = filename.lastIndexOf('.');
             return (i < 0) ? '' : filename.substr(i);   
         }
 
-
+    /* EVENTBUS */
+        e = require('./EventBus/EventBus.js');
+        e.doit();
 
 /*GLOBAL SHARED VALUES
 Application Defaults (shared with ALL users)
@@ -80,11 +83,11 @@ Application Defaults (shared with ALL users)
         ];
 
     /* FORMS */
-        var t = require("./helper/KissForm");
-            t.newForm('registerUser');
-            t.addFormItem('eMail','email','email');
-            t.addFormItem('Password','password','password');
-        app.locals.registerUserForm = t.getForm();
+         var t = require("./helper/KissForm");
+             t.newForm('registerUser');
+             t.addFormItem('eMail','email','email');
+        	 t.addFormItem('Password','password','password');
+       	 app.locals.registerUserForm = t.getForm();
 
 /*
 LAYOUT

@@ -1,58 +1,9 @@
-/*
-creates a input form DIV and created a less file for its selectors
-
-DEPENDENCIES:
-app.locals.appDir
-l()
- 
-EXAMPLE USAGE
-var k= new KissForm('test');
-    k.addFormItem('Username','username','text')
-    l('FORM ', k.getForm());
-    app.locals.myform = k.getForm();
-
-*/
-// function KissForm(value) {
-
-//     var _test = value;
-    
-//     this.test = function(){
-//         return _test;
-//     }
-// }
-
-
-
-
-
 
 module.exports = function () {
-
-    var _id = "";
-    var _header = "<div id='"+_id+"_form'>";
-    var _body = "";
-    var _footer = "</div>";
-    var _submit = "<button id='"+_id+"_form_submit'>Submit</button>";
-
-
-    this.newForm = function(id){
-       _id = id;
-       createCSS(_id+"_form.less");
-    };
-
-    this.test = function(){
-        return _id;
-    };
-
-    this.addFormItem = function(label, id, type) 
-    {
-        var _item_error  =    "<div id='"+id+"_error'>errortext</div>";
-        var _item_header =    "<div id='"+id+"_row'>";
-        var _item_label  =       "<label for='"+id+"_input'>"+label+"</label>";
-        var _item_input  =       "<input id='"+id+"_input' type='"+type+"' placeholder='"+label+"'>";
-        var _item_footer =    "</div>";
-        _body += _item_error + _item_header + _item_label + _item_input + _item_footer;
-    };
+  //  var fs  = require('fs');
+    var cssdir = app.locals.appDir + '/layout/css/';
+    var jsdir  = app.locals.appDir + '/layout/js/';
+    var helperDir = app.locals.appDir + '/helper/';
 
     function addCSSID(id){
         var newID = 
@@ -62,13 +13,40 @@ module.exports = function () {
         return newID;
     };
 
+
     function createCSS(_filename) {
         var fs  = require('fs');
         var css = addCSSID(_id+'_error');
         try{
-            if(!fs.existsSync(app.locals.appDir+'/layout/css/'+_filename)){
-                l("Creating CSS STUB for Form:" + app.locals.appDir+'/layout/css/'+_filename);
-                fs.writeFile(app.locals.appDir+'/layout/css/'+_filename, css, function(err) {
+            if(!fs.existsSync( cssdir +_filename)){
+                l("Creating CSS STUB for Form:" + cssdir + _filename);
+                fs.writeFile(+ cssdir + _filename, css, function(err) {
+                    if(err) {
+                        console.log(err);
+                    } else {
+                        console.log("The file was saved!");
+                    }
+                });
+            }     
+         }catch(e){
+           console.log(e);
+         }
+    };
+
+
+    function createJS(_filename) {
+     
+        
+        var tmpl = swig.compileFile(helperDir + "formEvent.js");
+        var script = tmpl.render({
+                sender: k.id+'_form',
+            });
+        
+        try{
+            if(!fs.existsSync( jsdir +_filename)){
+                
+                l("Creating JS EventHandler:" + jsdir + _filename);
+                fs.writeFile( jsdir + _filename, script, function(err) {
                     if(err) {
                         console.log(err);
                     } else {
@@ -80,20 +58,94 @@ module.exports = function () {
            
          }
     };
+ 
+
+   function KissForm(){
+        this._id = ""
+        this._body = "";
+        this._footer = "</div>";
+        this._header ="";
+        this._submit = "";
+    }
+
+    KissForm.prototype = 
+    {   
+        /*GETTER*/ 
+        get id(){
+            return this._id;
+        },
+        get body(){
+            return this._body;
+        },
+        get footer(){
+            return this._footer;
+        },
+        get header() {
+            return "<div id='"+this._id+"_form'>";
+        },
+        get submit() {
+            return "<button id='"+this._id+"_form_submit'>Submit</button>";
+        },
+        
+        /*SETTER*/
+        set id(value){
+            this._id = value;
+        },
+        set body(value){
+            this._body = value;
+        },
+        set footer(value){
+            this._footer = value;
+        },
+        set header(value) {
+           
+        },
+        set submit(value) {
+            
+        }
+
+
+    }
+    var k = new KissForm();
+     
+
+   /*=============================================================================================*/
+
+    this.newForm = function(id){
+       //this._id = id;
+       k.id = id;
+      // createCSS(this._id+"_form.less");
+       createJS(k.id+"_form.js");
+    };
+
+
+    this.addFormItem = function(label, id, type) 
+    {
+        var _item_error  =    "<div class='error' id='"+id+"_error'>errortext</div>";
+        var _item_header =    "<div id='"+id+"_row'>";
+        var _item_label  =       "<label for='"+id+"_input'>"+label+"</label>";
+        var _item_input  =       "<input id='"+id+"_input' type='"+type+"' placeholder='"+label+"'>";
+        var _item_footer =    "</div>";
+        k.body +=  _item_header + _item_error +_item_label + _item_input + _item_footer;
+    };
+
 
     this.getForm = function() {
-        var result = _header + _body + _footer + _submit;
+        var result = k.header+ k.body + k.footer + k.submit;
+        app.post('/eventbus',function(req,res)
+        {
+            console.log(req)
+    //    res.render(__dirname +'/view/chat.html', { foo: 'bar'});
+        });
         return result;
     };
 
     /*
     Constructor, executed on instantiation
     *************/
-    (function(){   
-        l('KISSFORM constructor called')
-        //createCSS(_id+"_form.less");
-    })();
-
+    //(function(){   
+        //l('KISSFORM constructor called')
+    //})();
 
     return this;
 
