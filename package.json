@@ -12,6 +12,7 @@
     "less-middleware": "*",
     "urlify" : "*",
     "socket.io": "*",
-    "mongodb": "*"
+    "mongodb": "*",
+    "formidable": "*"
   }
 }

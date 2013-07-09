@@ -97,13 +97,8 @@ module.exports = function () {
         set footer(value){
             this._footer = value;
         },
-        set header(value) {
-           
-        },
-        set submit(value) {
-            
-        }
-
+        set header(value) {},
+        set submit(value) {}
 
     }
     var k = new KissForm();

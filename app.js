@@ -5,6 +5,7 @@
          , http = require('http')
          , cons = require('consolidate')
          , path = require('path')
+         var formidable = require('formidable');
     fs  = require('fs');
     swig = require('swig')
     app = express();
@@ -20,7 +21,7 @@
             app.set('view engine', 'html');      
         app.use(express.favicon());
         app.use(express.logger('dev'));
-        app.use(express.bodyParser());
+      //  app.use(express.bodyParser({ uploadDir:__dirname + '/public/' }));
         app.use(express.methodOverride());
         app.use(express.cookieParser('my secret here'));
         app.use(express.session());
