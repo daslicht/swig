@@ -6,13 +6,14 @@
     "start": "node app"
   },
   "dependencies": {
-    "express": "3.1.0",
-    "consolidate" : "*",
-    "swig": "*",
-    "less-middleware": "*",
-    "urlify" : "*",
-    "socket.io": "*",
-    "mongodb": "*",
-    "formidable": "*"
+    "express"             : "3.1.0",
+    "consolidate"         : "*",
+    "swig"                : "*",
+    "less-middleware"     : "*",
+    "urlify"              : "*",
+    "socket.io"           : "*",
+    "mongodb"             : "*",
+    "formidable"          : "*",
+    "imagemagick-native"  : "*"
   }
 }

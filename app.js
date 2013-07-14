@@ -21,7 +21,8 @@
             app.set('view engine', 'html');      
         app.use(express.favicon());
         app.use(express.logger('dev'));
-      //  app.use(express.bodyParser({ uploadDir:__dirname + '/public/' }));
+        // app.use(express.bodyParser({ uploadDir:__dirname + '/public/' }));
+        app.use(express.bodyParser());
         app.use(express.methodOverride());
         app.use(express.cookieParser('my secret here'));
         app.use(express.session());
@@ -29,11 +30,11 @@
         app._ = require('underscore');
     });
 
+
+
     app.configure('development', function(){
       app.use(express.errorHandler());
     });
-
-
 
 /*
 GLOBAL HELPER FUNCTIONS
@@ -59,9 +60,7 @@ GLOBAL HELPER FUNCTIONS
             return (i < 0) ? '' : filename.substr(i);   
         }
 
-    /* EVENTBUS */
-        e = require('./EventBus/EventBus.js');
-        e.doit();
+
 
 /*GLOBAL SHARED VALUES
 Application Defaults (shared with ALL users)
@@ -83,12 +82,8 @@ Application Defaults (shared with ALL users)
             ,{slug: ["/contact"], name:"CONTACT" }
         ];
 
-    /* FORMS */
-         var t = require("./helper/KissForm");
-             t.newForm('registerUser');
-             t.addFormItem('eMail','email','email');
-        	 t.addFormItem('Password','password','password');
-       	 app.locals.registerUserForm = t.getForm();
+
+
 
 /*
 LAYOUT
@@ -98,6 +93,7 @@ LAYOUT
     app.use('/layout/js', express.static(__dirname+'/layout/js'));
 
     require('./layout/css');
+
 
 
 /* GLOBALS
@@ -110,12 +106,36 @@ LAYOUT
         db = _db;
         db.collection('user', function(err, collection)
         {   
-            /*REGISTER MODELS
-            ******************/ 
-            userModel = require('./database/UserModel.js');
-            userModel.getAll(function(docs){
-                //console.log(docs);
-            });
+            /* REGISTER MODELS */ 
+                userModel = require('./database/UserModel.js');
+                userModel.getAll(function(docs){
+                    //console.log(docs);
+                });
+
+
+            /* FORMS */
+                var t = require("./helper/KissForm");
+                    t.newForm('registerUser')
+                    t.addItem('eMail','email','email');
+                    t.addItem('Password','password','password');
+                app.locals.registerUserForm = t.getForm();                
+                
+                var t = require("./helper/KissForm");
+                    t.newForm('userLogin')
+                    t.addItem('eMail','email','email');
+                    t.addItem('Password','password','password');
+                app.locals.userLoginForm = t.getForm();
+            
+
+
+            /* UPLOADER */
+                var u = require("./helper/KissUploader");
+                    u.newUploader('avatarUploader');
+                app.locals.avatarUploader = u.getUploader();
+
+            /* EVENTBUS */
+            e = require('./EventBus/EventBus.js');
+            e.doit();
 
             /*
             var userVO =  {
@@ -132,6 +152,7 @@ LAYOUT
 
         });
     });
+
 
 
 /* START SERVER 

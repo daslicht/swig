@@ -1,6 +1,5 @@
 'use strict';
 
-
 //dummy content
 var y = [
     {
@@ -36,44 +35,36 @@ module.exports = function()
         res.render(__dirname +'/view/home.html', { foo: 'welcome', y : y, details:y[req.params.id-1].details });
     });
 
-
-    app.post('/upload',function(req,res)
-    {
-        var formidable = require('formidable');
-        var form = new formidable.IncomingForm(),
-            files = [],
-            fields = [];
-
-        form.uploadDir = app.locals.appDir + '/uploads';
-
-        form.on('progress', function(bytesReceived, bytesExpected) {
-             l('bytesReceived: ', bytesReceived);
-             l('bytesExpected: ', bytesExpected);
-        });
-        
-        form.on('field', function(field, value) {
-            console.log('FIELD: ',field, value);
-            fields.push([field, value]);
-        });
-          
-        form.on('file', function(field, file) {
-            console.log('FILE: ',field, file);
-            files.push([field, file]);
-        });
-          
-        form.on('end', function() {
-            console.log('-> upload done');
-            console.log('FIELDS: ',fields);
-            console.log('FILES: ,'files);
-
-        });
-        form.parse(req);
-
-        res.redirect('/news/1');
-       
-    });
-   
-
-
 }();
 
+/*
+[ 'upload',
+
+  { domain: null,
+    _events: {},
+    _maxListeners: 10,
+    size: 64348,
+    path: '/Users/daslicht/node/swig/uploads/d2e1de2703d610c4dd6c7f3b95d9cdd9.jpg',
+    name: '255469_10150859787544039_1931365586_n.jpg',
+    type: 'image/jpeg',
+    hash: null,
+    lastModifiedDate: Wed Jul 10 2013 01:51:58 GMT+0200 (CEST),
+    _writeStream: 
+        { 
+            _writableState: [Object],
+            writable: true,
+            domain: null,
+            _events: [Object],
+            _maxListeners: 10,
+            path: '/Users/daslicht/node/swig/uploads/d2e1de2703d610c4dd6c7f3b95d9cdd9.jpg',
+            fd: null,
+            flags: 'w',
+            mode: 438,
+            start: undefined,
+            pos: undefined,
+            bytesWritten: 64348,
+            closed: true 
+        } 
+   } 
+]
+*/

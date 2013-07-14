@@ -18,9 +18,9 @@ userModel.createSuperAdmin  = function()
         userCollection.insert( user, {safe:true}, function(err, result) {
             userCollection.ensureIndex({email:1},{unique:true},function(err, indexName){
                 if(err){
-                    app.log(':( Database, ensureIndex  ', err);
+                    l(':( Database, ensureIndex  ', err);
                 }else{
-                    app.log(':) Database, ensureIndex  ', indexName);
+                    l(':) Database, ensureIndex  ', indexName);
                 }
             });
             if(err){
@@ -33,10 +33,10 @@ userModel.createSuperAdmin  = function()
  /*
 CREATE USER ADMIN
 *******************/
-userModel.createUser  = function(userVO)
+userModel.createUser  = function( userVO, callback)
 {          
 	if(_.isUndefined(userVO) ){
-      	app.log('userVO is undefined')
+      	l('userVO is undefined')
       	var userVO =  {
 	        username:'admin',
 	        password:'admin',
@@ -44,19 +44,23 @@ userModel.createUser  = function(userVO)
 	        status:'admin'
     	}
     }
-    app.log(' ');
-    app.log('userVO: ', userVO);
-	app.log(' ');
+    l(' ');
+    l('userVO: ', userVO);
+	l(' ');
     userCollection.insert( userVO, {safe:true}, function(err, result) {
         userCollection.ensureIndex({email:1},{unique:true},function(err, indexName){
             if(err){
-                app.log(':( Database, ensureIndex  ', err);
+                l(':( Database, ensureIndex  ', err);
             }else{
-                app.log(':) Database, ensureIndex  ', indexName);
+                l(':) Database, ensureIndex  ', indexName);
             }
         });
         if(err){
-            console.log(':( Database insert ',err);   
+           // console.log(':( Database insert ',err.code); 
+            if(err.code === 11000){
+                //l('User already exists');
+                callback('User already exists');
+            }  
         }
     });   
 };

@@ -1,10 +1,17 @@
 $(document).ready(function(){
 
-	$(document).on('click',"#registerUser_form_submit",function(){
-		var form = $("#registerUser_form");
+	$(document).on('click',"#{{sender}}_submit",function(){
+		
+		var form = $("#{{sender}}");
 		var i = form.find("input");
-		$.each(i,function(index,item){
-			console.log('item', item);
+		
+		var vo = [];
+		$.each( i, function(index,item) {
+			var obj = {};
+				obj['id'] = item.id;
+				obj['value'] = item.value;
+				obj[item.name] = item.value;
+			vo.push(obj);
 		})
 					
 
@@ -12,15 +19,13 @@ $(document).ready(function(){
 			  type: "POST",
 			  url: "/eventbus",
 			  data: {
-			         sender:"{{sender}}",
-			  		 values:{
-			  		 	sender:"rtest"
-			  		 } 
-
+			         sender: "{{sender}}",
+			  		 values: vo
 			  }
 
 			}).done(function( msg ) {
-			  alert( "Data Saved: " + msg );
+				console.log(msg)	;
+			  //alert( "Data Saved: " + msg );
 		});
 	});
 });

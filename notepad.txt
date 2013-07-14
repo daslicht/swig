@@ -24,3 +24,69 @@
 //         this._value = val;
 //     }
 // };
+
+
+// function createCollection( db, collectionName){
+//     //check if collection exists if not create one
+//     db.createCollection(collectionName, {safe:true}, function(err, collection) {
+//         if(err){
+//             console.log("Connect: "+err);
+//         }else{
+//             console.log("Collection  "+collectionName+" created!");
+//             /*db.collection('user', function(err, collection)
+//              {
+//              collection.ensureIndex({email:1},{unique:true});
+//              });      */
+//         }
+
+//     });
+// }
+
+
+/*
+
+// function createDBStructure(db)
+//    // createCollection(db,"blog");
+//     createCollection(db,"user");
+//     db.collection('user', function(err, collection)
+//     {
+//         collection.ensureIndex({email:1},{unique:true});
+//     });
+// }
+
+
+
+// function createNewsCollection(db){
+//     createCollection(db,"news");
+//     var headline =  {
+//         date:'19.11.2012',
+//         headline:'Headline A',
+//         url:'headline-A',
+//         details:[
+//             {
+//                 content:'This is Detail page 1 / 2'
+//             },
+//             {
+//                 content:'This is Detail page 2 / 2'
+//             }
+//         ]
+//     };
+
+//     db.collection('news', function(err, collection)
+//     {
+//         collection.insert( headline, {safe:true}, function(err, result) {
+//             if(err){
+//                 console.log('insert: ',err);
+
+//             }else{
+
+//             }
+//         });
+//     });
+
+
+
+// }
+
+
+*/
